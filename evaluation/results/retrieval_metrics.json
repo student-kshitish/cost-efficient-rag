@@ -1,0 +1,180 @@
+{
+  "evaluation": {
+    "k": 5,
+    "question_count": 15,
+    "metrics": {
+      "recall@5": 1.0,
+      "hit_rate@5": 1.0,
+      "mrr@5": 0.9666666666666667,
+      "ndcg@5": 0.9003983121300767,
+      "precision@5": 0.5599999999999999
+    },
+    "per_question": [
+      {
+        "question_id": "q001",
+        "question": "What is the difference between storing information in an attractor basin and carrying analog information?",
+        "relevant_chunk_count": 3,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8854598815714874,
+        "precision@5": 0.6
+      },
+      {
+        "question_id": "q002",
+        "question": "What threshold does the paper give for the largest Lyapunov exponent required for analog information retention?",
+        "relevant_chunk_count": 2,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "precision@5": 0.4
+      },
+      {
+        "question_id": "q003",
+        "question": "How can discrete information remain protected when the largest Lyapunov exponent is well below the analog-retention threshold?",
+        "relevant_chunk_count": 3,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.9674679834891693,
+        "precision@5": 0.6
+      },
+      {
+        "question_id": "q004",
+        "question": "Does computation necessarily require criticality according to the paper?",
+        "relevant_chunk_count": 3,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8854598815714874,
+        "precision@5": 0.6
+      },
+      {
+        "question_id": "q005",
+        "question": "What does the hand-constructed parity module demonstrate about computation and the largest Lyapunov exponent?",
+        "relevant_chunk_count": 3,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8854598815714874,
+        "precision@5": 0.6
+      },
+      {
+        "question_id": "q006",
+        "question": "What largest Lyapunov exponent is reported for the parity module?",
+        "relevant_chunk_count": 2,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8772153153380493,
+        "precision@5": 0.4
+      },
+      {
+        "question_id": "q007",
+        "question": "How does the paper distinguish discrete information storage from analog information retention?",
+        "relevant_chunk_count": 3,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8854598815714874,
+        "precision@5": 0.6
+      },
+      {
+        "question_id": "q008",
+        "question": "What role does the largest Lyapunov exponent play in the paper's threshold law?",
+        "relevant_chunk_count": 3,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8854598815714874,
+        "precision@5": 0.6
+      },
+      {
+        "question_id": "q009",
+        "question": "What evidence does the paper provide that computation can work away from criticality?",
+        "relevant_chunk_count": 3,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.9674679834891693,
+        "precision@5": 0.6
+      },
+      {
+        "question_id": "q010",
+        "question": "What does the paper identify as the boundaries or limitations of its threshold law?",
+        "relevant_chunk_count": 3,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8854598815714874,
+        "precision@5": 0.6
+      },
+      {
+        "question_id": "q011",
+        "question": "What is the paper's central claim about criticality as a resource?",
+        "relevant_chunk_count": 4,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 1.0,
+        "precision@5": 0.8
+      },
+      {
+        "question_id": "q012",
+        "question": "What does the paper say about attractor dynamics and protection of discrete information?",
+        "relevant_chunk_count": 2,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8772153153380493,
+        "precision@5": 0.4
+      },
+      {
+        "question_id": "q013",
+        "question": "How does the paper explain the relationship between analog memory and dynamical stability?",
+        "relevant_chunk_count": 3,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.8854598815714874,
+        "precision@5": 0.6
+      },
+      {
+        "question_id": "q014",
+        "question": "What architecture does the paper propose, and what problem is it intended to address?",
+        "relevant_chunk_count": 3,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 1.0,
+        "ndcg@5": 0.9674679834891693,
+        "precision@5": 0.6
+      },
+      {
+        "question_id": "q015",
+        "question": "What conclusions does the paper draw about the different dynamical requirements of storage and computation?",
+        "relevant_chunk_count": 2,
+        "retrieved_chunk_count": 5,
+        "recall@5": 1.0,
+        "hit_rate@5": 1.0,
+        "mrr@5": 0.5,
+        "ndcg@5": 0.6509209298071326,
+        "precision@5": 0.4
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+vectors,dimensions,vector_dtype,raw_vector_storage_GB,raw_vector_storage_GiB,assumed_text_storage_GB,assumed_metadata_storage_GB,estimated_total_storage_GB,estimated_total_storage_GiB,status
+100000,384,float32,0.154,0.143,0.3,0.05,0.755,0.704,analytical_estimate_not_measured
+1000000,384,float32,1.536,1.431,3.0,0.5,7.554,7.035,analytical_estimate_not_measured
+10000000,384,float32,15.36,14.305,30.0,5.0,75.54,70.352,analytical_estimate_not_measured

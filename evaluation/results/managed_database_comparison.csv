@@ -1,0 +1,7 @@
+provider,plan,published_monthly_minimum_usd,cost_model,exact_cost_for_vector_count
+Local LanceDB,Self-hosted,,Local infrastructure and operating costs,Not calculated
+Pinecone,Builder,20,Plan price; usage limits apply,Not calculated
+Pinecone,Standard,50,Usage-based; $50 monthly minimum,Not calculated
+Pinecone,Enterprise,500,Usage-based; $500 monthly minimum,Not calculated
+Qdrant Cloud,Free,0,"0.5 vCPU, 1 GB RAM, 4 GB disk",Capacity must be validated
+Qdrant Cloud,Standard,,Resource-based billing,Use official calculator

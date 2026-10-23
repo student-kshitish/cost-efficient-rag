@@ -1,0 +1,8 @@
+{
+  "questions": 15,
+  "top_k": 5,
+  "mean_latency_ms": 23.488638466672757,
+  "p50_latency_ms": 6.782922000184044,
+  "p95_latency_ms": 105.29953550003493,
+  "mean_results_returned": 5
+}

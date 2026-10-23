@@ -1,0 +1,16 @@
+question_id,question,relevant_chunk_count,retrieved_chunk_count,recall@5,hit_rate@5,mrr@5,ndcg@5,precision@5
+q001,What is the difference between storing information in an attractor basin and carrying analog information?,3,5,1.0,1.0,1.0,0.8854598815714874,0.6
+q002,What threshold does the paper give for the largest Lyapunov exponent required for analog information retention?,2,5,1.0,1.0,1.0,1.0,0.4
+q003,How can discrete information remain protected when the largest Lyapunov exponent is well below the analog-retention threshold?,3,5,1.0,1.0,1.0,0.9674679834891693,0.6
+q004,Does computation necessarily require criticality according to the paper?,3,5,1.0,1.0,1.0,0.8854598815714874,0.6
+q005,What does the hand-constructed parity module demonstrate about computation and the largest Lyapunov exponent?,3,5,1.0,1.0,1.0,0.8854598815714874,0.6
+q006,What largest Lyapunov exponent is reported for the parity module?,2,5,1.0,1.0,1.0,0.8772153153380493,0.4
+q007,How does the paper distinguish discrete information storage from analog information retention?,3,5,1.0,1.0,1.0,0.8854598815714874,0.6
+q008,What role does the largest Lyapunov exponent play in the paper's threshold law?,3,5,1.0,1.0,1.0,0.8854598815714874,0.6
+q009,What evidence does the paper provide that computation can work away from criticality?,3,5,1.0,1.0,1.0,0.9674679834891693,0.6
+q010,What does the paper identify as the boundaries or limitations of its threshold law?,3,5,1.0,1.0,1.0,0.8854598815714874,0.6
+q011,What is the paper's central claim about criticality as a resource?,4,5,1.0,1.0,1.0,1.0,0.8
+q012,What does the paper say about attractor dynamics and protection of discrete information?,2,5,1.0,1.0,1.0,0.8772153153380493,0.4
+q013,How does the paper explain the relationship between analog memory and dynamical stability?,3,5,1.0,1.0,1.0,0.8854598815714874,0.6
+q014,"What architecture does the paper propose, and what problem is it intended to address?",3,5,1.0,1.0,1.0,0.9674679834891693,0.6
+q015,What conclusions does the paper draw about the different dynamical requirements of storage and computation?,2,5,1.0,1.0,0.5,0.6509209298071326,0.4

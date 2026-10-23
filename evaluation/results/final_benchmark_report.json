@@ -1,0 +1,109 @@
+{
+  "generated_at_utc": "2026-10-23T07:21:45.377418+00:00",
+  "project": "Cost-Efficient RAG",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dimensions": 384,
+  "vector_database": "LanceDB",
+  "llm_provider": "Local Ollama",
+  "llm_model": "llama3.2:3b",
+  "retrieval_benchmark": {
+    "questions": 15,
+    "top_k": 5,
+    "mean_latency_ms": 23.488638466672757,
+    "p50_latency_ms": 6.782922000184044,
+    "p95_latency_ms": 105.29953550003493,
+    "mean_results_returned": 5
+  },
+  "answer_quality_collection": {
+    "questions_total": 15,
+    "successful_answers": 15,
+    "failed_answers": 0,
+    "mean_latency_ms": 4190.92,
+    "p50_latency_ms": 3616.84,
+    "p95_latency_ms": 8052.34,
+    "total_prompt_tokens": 53136,
+    "total_completion_tokens": 3293,
+    "errors": [],
+    "samples_file": "evaluation/results/answer_quality_samples.jsonl"
+  },
+  "storage_estimates": {
+    "generated_at_utc": "2026-10-23T06:17:19.578695+00:00",
+    "method": "analytical_storage_estimate",
+    "assumptions": {
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "dimensions": 384,
+      "vector_dtype": "float32",
+      "average_text_bytes_per_chunk": 3000,
+      "average_metadata_bytes_per_chunk": 500,
+      "index_overhead_multiplier": 1.5,
+      "warning": "Estimates only. Actual storage depends on chunk length, metadata, LanceDB/Arrow layout, index configuration, compression, deletion history, and filesystem overhead."
+    },
+    "results": [
+      {
+        "vectors": 100000,
+        "dimensions": 384,
+        "vector_dtype": "float32",
+        "raw_vector_storage_GB": 0.154,
+        "raw_vector_storage_GiB": 0.143,
+        "assumed_text_storage_GB": 0.3,
+        "assumed_metadata_storage_GB": 0.05,
+        "estimated_total_storage_GB": 0.755,
+        "estimated_total_storage_GiB": 0.704,
+        "status": "analytical_estimate_not_measured"
+      },
+      {
+        "vectors": 1000000,
+        "dimensions": 384,
+        "vector_dtype": "float32",
+        "raw_vector_storage_GB": 1.536,
+        "raw_vector_storage_GiB": 1.431,
+        "assumed_text_storage_GB": 3.0,
+        "assumed_metadata_storage_GB": 0.5,
+        "estimated_total_storage_GB": 7.554,
+        "estimated_total_storage_GiB": 7.035,
+        "status": "analytical_estimate_not_measured"
+      },
+      {
+        "vectors": 10000000,
+        "dimensions": 384,
+        "vector_dtype": "float32",
+        "raw_vector_storage_GB": 15.36,
+        "raw_vector_storage_GiB": 14.305,
+        "assumed_text_storage_GB": 30.0,
+        "assumed_metadata_storage_GB": 5.0,
+        "estimated_total_storage_GB": 75.54,
+        "estimated_total_storage_GiB": 70.352,
+        "status": "analytical_estimate_not_measured"
+      }
+    ]
+  },
+  "managed_database_pricing_snapshot": {
+    "currency": "USD",
+    "pinecone": {
+      "Builder_plan_minimum_monthly_usd": 20,
+      "Standard_plan_minimum_monthly_usd": 50,
+      "Enterprise_plan_minimum_monthly_usd": 500,
+      "pricing_url": "https://www.pinecone.io/pricing/",
+      "interpretation": "Published plan minimums; actual usage charges can be higher. Not a quote for a given vector count."
+    },
+    "qdrant_cloud": {
+      "free_tier": {
+        "monthly_price_usd": 0,
+        "vcpus": 0.5,
+        "ram_gb": 1,
+        "disk_gb": 4
+      },
+      "paid_plan": "Usage-based resource billing",
+      "pricing_url": "https://qdrant.tech/pricing/",
+      "interpretation": "Paid cost depends on allocated compute, memory, storage, backups, and usage. Obtain a deployment estimate from the official calculator."
+    }
+  },
+  "limitations": [
+    "The current real dataset has only 18 indexed chunks.",
+    "Large-scale storage values are analytical estimates.",
+    "Local latency measurements do not represent 100K, 1M, or 10M vectors.",
+    "Successful generation does not establish answer correctness.",
+    "Managed plan minimums are not exact deployment cost estimates.",
+    "A valid retrieval-quality report requires reviewed relevance labels."
+  ]
+}

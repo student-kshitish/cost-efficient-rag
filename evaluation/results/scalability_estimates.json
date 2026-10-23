@@ -1,0 +1,51 @@
+{
+  "generated_at_utc": "2026-10-23T06:17:19.578695+00:00",
+  "method": "analytical_storage_estimate",
+  "assumptions": {
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "dimensions": 384,
+    "vector_dtype": "float32",
+    "average_text_bytes_per_chunk": 3000,
+    "average_metadata_bytes_per_chunk": 500,
+    "index_overhead_multiplier": 1.5,
+    "warning": "Estimates only. Actual storage depends on chunk length, metadata, LanceDB/Arrow layout, index configuration, compression, deletion history, and filesystem overhead."
+  },
+  "results": [
+    {
+      "vectors": 100000,
+      "dimensions": 384,
+      "vector_dtype": "float32",
+      "raw_vector_storage_GB": 0.154,
+      "raw_vector_storage_GiB": 0.143,
+      "assumed_text_storage_GB": 0.3,
+      "assumed_metadata_storage_GB": 0.05,
+      "estimated_total_storage_GB": 0.755,
+      "estimated_total_storage_GiB": 0.704,
+      "status": "analytical_estimate_not_measured"
+    },
+    {
+      "vectors": 1000000,
+      "dimensions": 384,
+      "vector_dtype": "float32",
+      "raw_vector_storage_GB": 1.536,
+      "raw_vector_storage_GiB": 1.431,
+      "assumed_text_storage_GB": 3.0,
+      "assumed_metadata_storage_GB": 0.5,
+      "estimated_total_storage_GB": 7.554,
+      "estimated_total_storage_GiB": 7.035,
+      "status": "analytical_estimate_not_measured"
+    },
+    {
+      "vectors": 10000000,
+      "dimensions": 384,
+      "vector_dtype": "float32",
+      "raw_vector_storage_GB": 15.36,
+      "raw_vector_storage_GiB": 14.305,
+      "assumed_text_storage_GB": 30.0,
+      "assumed_metadata_storage_GB": 5.0,
+      "estimated_total_storage_GB": 75.54,
+      "estimated_total_storage_GiB": 70.352,
+      "status": "analytical_estimate_not_measured"
+    }
+  ]
+}

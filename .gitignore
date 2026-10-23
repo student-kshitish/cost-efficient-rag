@@ -1,10 +1,18 @@
 .venv/
 __pycache__/
 *.py[cod]
-.env
 .pytest_cache/
-.mypy_cache/
-.ruff_cache/
-
+.env
+.env.*
+!.env.example
+.DS_Store
 data/lancedb/
-data/raw/
+
+# Local environment and database
+.env
+.venv/
+data/lancedb/
+
+# Temporary evaluation files
+evaluation/questions.auto_labeled.jsonl
+evaluation/questions.backup.jsonl

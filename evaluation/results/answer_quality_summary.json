@@ -1,0 +1,12 @@
+{
+  "questions_total": 15,
+  "successful_answers": 15,
+  "failed_answers": 0,
+  "mean_latency_ms": 4190.92,
+  "p50_latency_ms": 3616.84,
+  "p95_latency_ms": 8052.34,
+  "total_prompt_tokens": 53136,
+  "total_completion_tokens": 3293,
+  "errors": [],
+  "samples_file": "evaluation/results/answer_quality_samples.jsonl"
+}
